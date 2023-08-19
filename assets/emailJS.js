@@ -1,4 +1,4 @@
-const btn = document.getElementById('buttonSendEmail');
+const btn = document.getElementById('button');
 document.getElementById('form')
  .addEventListener('submit', function(event) {
     event.preventDefault();
