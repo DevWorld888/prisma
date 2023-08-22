@@ -1,5 +1,5 @@
 #loading{
-	background-color: #000!important;
+	background-color: #1E3868!important;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -131,8 +131,8 @@
 .loading-icon .loading-logo{
 	width: 300px;
 	height: 300px;
-	-webkit-animation: ghurche 4s linear infinite -1.2s;
-	animation: ghurche 4s linear infinite -1.2s; 
+	/* -webkit-animation: ghurche 4s linear infinite -1.2s;
+	animation: ghurche 4s linear infinite -1.2s;  */
 	
 }
 	

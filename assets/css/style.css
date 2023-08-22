@@ -190,7 +190,7 @@ p {
   font-family: "Hind", sans-serif;
   font-size: 15px;
   font-weight: normal;
-  color: #677a85;
+  color: #1E3868;
   margin-bottom: 15px;
   line-height: 28px;
 }
@@ -320,7 +320,7 @@ p {
 }
 
 .footer-bg {
-  background: #000;
+  background: #1E3868;
 }
 
 /*--
@@ -975,28 +975,28 @@ p {
   line-height: 42px;
   text-align: center;
   background: #f8f4ef;
-  color: #068FFF;
+  color: #CC151C;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 .header__social ul li a:hover {
-  background: #068FFF;
+  background: #CC151C;
   color: #ffffff;
 }
 .header__social-2 ul li a {
-  color: #2c3941;
+  color: #1E3868;
 }
 .header__social-2 ul li a:hover {
-  background: #fad105;
+  background: #1E3868;
   color: #2c3941;
 }
 .header__cart-btn {
-  color: #2c3941;
+  color: #1E3868;
   font-size: 17px;
 }
 .header__cart-btn:hover {
-  color: #fc8459;
+  color: #1E3868;
 }
 .header__cart-btn-2 {
   color: #ffffff;
@@ -1008,7 +1008,7 @@ p {
   line-height: 40px;
   text-align: center;
   font-size: 15px;
-  color: #222328;
+  color: #1E3868;
   background: #fad105;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1051,7 +1051,7 @@ p {
   display: inline-block;
   font-size: 17px;
   font-weight: 500;
-  color: #2c3941;
+  color: #1E3868;
   text-transform: capitalize;
   padding: 30px 0;
 }
@@ -1063,7 +1063,7 @@ p {
   bottom: 25px;
   width: 0;
   height: 2px;
-  background: #068FFF;
+  background: #CC151C;
   visibility: hidden;
   opacity: 0;
 }
@@ -1074,10 +1074,10 @@ p {
   padding-left: 3px;
 }
 .main-menu ul li:hover > a, .main-menu ul li.active > a {
-  color: #068FFF;
+  color: #CC151C;
 }
 .main-menu ul li:hover > a::after, .main-menu ul li.active > a::after {
-  background: #068FFF;
+  background: #CC151C;
   visibility: visible;
   opacity: 1;
   width: 100%;
@@ -1121,7 +1121,7 @@ p {
   display: block;
   padding: 3px 20px;
   text-transform: capitalize;
-  color: #2c3941;
+  color: #1A5986;
   font-weight: 500;
   position: relative;
 }
@@ -1201,7 +1201,7 @@ p {
   cursor: pointer;
 }
 .dot-hamburger-btn span {
-  background: #068FFF;
+  background: #CC151C;
   display: block;
   position: absolute;
   height: 7px;
@@ -1292,12 +1292,12 @@ p {
   height: 45px;
   width: 45px;
   line-height: 49px;
-  background: rgb(6, 143, 255);
+  background: #CC151C;
   color: #fff;
   border-radius: 50%;
 }
 .sidebar__close-btn:hover {
-  background: #374853;
+  background: #1A5986;
 }
 .sidebar__logo {
   padding-bottom: 20px;
@@ -1386,13 +1386,13 @@ p {
   line-height: 42px;
   text-align: center;
   background: #f8f4ef;
-  color: #068Fff;
+  color: #1A5986;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 .sidebar__social ul li a:hover {
-  background: #068Fff;
+  background: #1A5986;
   color: #ffffff;
 }
 
