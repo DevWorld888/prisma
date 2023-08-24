@@ -142,7 +142,7 @@ h4,
 h5,
 h6 {
   font-family: "Rubik", sans-serif;
-  color: #2c3941;
+  color: #1E3868;
   margin-top: 0px;
   font-weight: 500;
   line-height: 1.2;
@@ -196,23 +196,23 @@ p {
 }
 
 .feautures_text {
-  color:#2c3941 ;
+  color:#1A5986 ;
 }
 
 *::-moz-selection {
-  background: #fc8459;
+  background: #1A5986;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #fc8459;
+  background: #1A5986;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fc8459;
+  background: #1A5986;
   color: #ffffff;
   text-shadow: none;
 }
@@ -344,7 +344,7 @@ p {
 }
 
 .theme-color {
-  color: #fc8459 !important;
+  color: #1A5986 !important;
 }
 
 .black-color {
@@ -560,7 +560,7 @@ p {
   display: inline-block;
   font-size: 18px;
   font-weight: 600;
-  color: #fc8459;
+  color: #CC151C;
   padding-left: 45px;
   margin-bottom: 15px;
 }
@@ -573,7 +573,7 @@ p {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: #fc8459;
+  background: #CC151C;
   width: 30px;
   height: 2px;
 }
@@ -1345,9 +1345,9 @@ p {
   margin-bottom: 20px;
 }
 .sidebar__contact ul li:hover i {
-  background:rgb(6, 143, 255);
+  background:#CC151C;
   color: #ffffff;
-  border-color: rgb(6, 143, 255);
+  border-color: #CC151C;
 }
 .sidebar__contact ul li:hover a {
   color: #394a55;
@@ -1386,13 +1386,13 @@ p {
   line-height: 42px;
   text-align: center;
   background: #f8f4ef;
-  color: #1A5986;
+  color: #CC151C;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 .sidebar__social ul li a:hover {
-  background: #1A5986;
+  background: #CC151C;
   color: #ffffff;
 }
 
@@ -1807,7 +1807,7 @@ p {
 .about__content p.bold-text {
   font-size: 18px;
   font-weight: 500;
-  color: #2c3941;
+  color: #1A5986;
   margin-bottom: 20px;
 }
 .about__content-2 p {
@@ -1825,7 +1825,7 @@ p {
 }
 .about__author-info span {
   font-size: 14px;
-  color: #fc8459;
+  color: #CC151C;
   font-weight: 500;
 }
 .about__thumb-1 img {
@@ -5005,7 +5005,7 @@ p {
   top: 5px;
   width: 3px;
   height: 90%;
-  background: #fc8459;
+  background: #CC151C;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .skill__progress {
@@ -6047,7 +6047,7 @@ p {
 }
 .footer__info-icon i {
   font-size: 20px;
-  color: #fc8459;
+  color: #CC151C;
 }
 .footer__info-text h4 {
   color: #ffffff;
@@ -6233,7 +6233,7 @@ p {
   border-radius: 5px;
 }
 .footer__social ul li a:hover {
-  background: #fc8459;
+  background: #CC151C;
   color: #ffffff;
 }
 .footer__social-2 ul li a:hover {
