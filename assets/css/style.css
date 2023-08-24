@@ -425,7 +425,7 @@ p {
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
-  background: #068FFF;
+  background: #1A5986;
   height: 60px;
   line-height: 62px;
   text-align: center;
@@ -448,7 +448,7 @@ p {
   left: 0;
   width: 150%;
   height: 102%;
-  background: #222328;
+  background: #1E3868;
   z-index: -1;
   -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
   transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
@@ -474,7 +474,7 @@ p {
   background: #24c373;
 }
 .r-btn-blue {
-  background: #2c3941;
+  background: #CC151C;
 }
 .r-btn-white {
   background: #ffffff;
@@ -1870,7 +1870,7 @@ p {
   bottom: -20px;
   width: 208px;
   height: 208px;
-  background: #24c373;
+  background: #1A5986;
   -webkit-clip-path: polygon(0 1%, 0% 100%, 100% 100%);
   clip-path: polygon(0 1%, 0% 100%, 100% 100%);
   z-index: -1;
@@ -2532,7 +2532,7 @@ p {
   height: 70px;
   line-height: 70px;
   text-align: center;
-  background: #fc8459;
+  background: #CC151C;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -5714,14 +5714,14 @@ p {
   line-height: 42px;
   text-align: center;
   background: #f8f4ef;
-  color: #2c3941;
+  color: #1A5986;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 .team__social ul li a:hover {
-  color: #2c3941;
-  background: #fad105;
+  color: #f8f4ef;
+  background: #1E3868;
 }
 .team__bg {
   position: relative;
@@ -6047,7 +6047,7 @@ p {
 }
 .footer__info-icon i {
   font-size: 20px;
-  color: #CC151C;
+  color: #ffffff;
 }
 .footer__info-text h4 {
   color: #ffffff;
