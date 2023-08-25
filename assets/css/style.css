@@ -288,7 +288,7 @@ p {
 }
 
 .pink-bg {
-  background: #2c3941;
+  background: #1E3868;
 }
 
 .green-bg-2 {
@@ -308,7 +308,7 @@ p {
 }
 
 .black-bg {
-  background: #2c3941;
+  background: #1E3868;
 }
 
 .black-bg-3 {
@@ -6226,8 +6226,8 @@ p {
   height: 40px;
   line-height: 42px;
   text-align: center;
-  background: #34454f;
-  color: #607887;
+  background: #1E3868;
+  color: #ffffff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
