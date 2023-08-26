@@ -25,6 +25,25 @@
    <link rel="stylesheet" href="assets/css/default.css">
    <link rel="stylesheet" href="assets/css/stylemin.css">
    <link rel="stylesheet" href="assets/plugin/components/Font Awesome/css/font-awesome.min.css">
+   <!-- Meta Pixel Code -->
+   <script>
+      !function (f, b, e, v, n, t, s) {
+         if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+               n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+         };
+         if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+         n.queue = []; t = b.createElement(e); t.async = !0;
+         t.src = v; s = b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1528750387890708');
+      fbq('track', 'PageView');
+   </script>
+   <noscript><img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1528750387890708&ev=PageView&noscript=1" /></noscript>
+   <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -603,7 +622,7 @@
       </section>
       <!-- why area end -->
 
-      
+
    </main>
 
    <!-- footer area start -->
@@ -611,7 +630,7 @@
       <div class="footer__area black-bg">
          <div class="footer__top pb-35">
             <div class="container">
-             
+
                <div class="row">
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                      <div class="footer__widget mb-50">
@@ -694,7 +713,7 @@
                         </div>
                      </div>
                   </div>
-                  
+
                </div>
             </div>
          </div>
@@ -744,8 +763,8 @@
    <script src="assets/js/main.js"></script>
    <!-- jQuery 1.8+ -->
    <script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>
- 
-   
+
+
 </body>
 
 </html>

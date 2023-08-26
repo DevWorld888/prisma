@@ -8,7 +8,7 @@
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon"  href="assets/img/logo/LOGOPRISMA.png">
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/LOGOPRISMA.png">
    <!-- CSS here -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
    <link rel="stylesheet"
@@ -29,6 +29,25 @@
    <link rel="stylesheet" href="assets/css/default.css">
    <link rel="stylesheet" href="assets/css/stylemin.css">
    <link rel="stylesheet" href="assets/plugin/components/Font Awesome/css/font-awesome.min.css">
+   <!-- Meta Pixel Code -->
+   <script>
+      !function (f, b, e, v, n, t, s) {
+         if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+               n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+         };
+         if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+         n.queue = []; t = b.createElement(e); t.async = !0;
+         t.src = v; s = b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1528750387890708');
+      fbq('track', 'PageView');
+   </script>
+   <noscript><img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1528750387890708&ev=PageView&noscript=1" /></noscript>
+   <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -43,7 +62,8 @@
       <div id="loading-center">
          <div id="loading-center-absolute">
             <div class="loading-icon text-center d-sm-flex align-items-center justify-content-center">
-               <img class="loading-logo mr-10  animate__animated animate__bounceIn" src="assets/img/logo/LOGO POSITIVO.png" alt="">
+               <img class="loading-logo mr-10  animate__animated animate__bounceIn"
+                  src="assets/img/logo/LOGO POSITIVO.png" alt="">
             </div>
          </div>
       </div>
@@ -93,7 +113,8 @@
                   <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6">
                      <div class="logo">
                         <a href="index.html">
-                           <img src="assets/img/logo/LOGOPRISMA.png" class="animate__animated animate__bounce" width="120" height="120" alt="logo">
+                           <img src="assets/img/logo/LOGOPRISMA.png" class="animate__animated animate__bounce"
+                              width="120" height="120" alt="logo">
                         </a>
                      </div>
                   </div>
@@ -622,7 +643,7 @@
    <!-- jQuery 1.8+ -->
    <script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>
 
-   
+
 </body>
 
 </html>

@@ -28,7 +28,25 @@
    <link rel="stylesheet" href="assets/css/default.css">
    <link rel="stylesheet" href="assets/css/stylemin.css">
    <link rel="stylesheet" href="assets/plugin/components/Font Awesome/css/font-awesome.min.css">
-
+   <!-- Meta Pixel Code -->
+   <script>
+      !function (f, b, e, v, n, t, s) {
+         if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+               n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+         };
+         if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+         n.queue = []; t = b.createElement(e); t.async = !0;
+         t.src = v; s = b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1528750387890708');
+      fbq('track', 'PageView');
+   </script>
+   <noscript><img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1528750387890708&ev=PageView&noscript=1" /></noscript>
+   <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -884,7 +902,7 @@
                            <script
                               type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
                         </div> -->
-                     
+
                      </div>
                   </div>
                </div>
@@ -994,7 +1012,7 @@
                         </div>
                      </div>
                   </div>
-                 
+
                </div>
             </div>
          </div>
@@ -1055,7 +1073,7 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"></script>
-  
+
 </body>
 
 </html>
