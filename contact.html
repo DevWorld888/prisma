@@ -359,7 +359,7 @@
                <div class="col-xxl-12">
                   <div class="contact__wrapper-4">
                      <div class="contact__form-3 contact__form-4">
-                        <form action="#">
+                        <form action="https://formsubmit.co/augustocsuarez1985@gmail.com" method="POST">
                            <div class="row">
                               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                  <div class="contact__input-3">
@@ -369,13 +369,13 @@
                               </div>
                               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                  <div class="contact__input-3">
-                                    <input type="email" placeholder="Your Email Address">
+                                    <input type="email" name="email" placeholder="Your Email Address">
                                     <i class="far fa-envelope"></i>
                                  </div>
                               </div>
                               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                  <div class="contact__input-3">
-                                    <input type="tel" placeholder="Phone Number">
+                                    <input type="tel" name="tel"placeholder="Phone Number">
                                     <i class="far fa-phone"></i>
                                  </div>
                               </div>
@@ -392,9 +392,12 @@
                               </div> -->
                               <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                                  <div class="contact__input-3">
-                                    <textarea placeholder="Message"></textarea>
+                                    <textarea type="Message" name="Message" placeholder="Message"></textarea>
                                  </div>
                               </div>
+                              <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/contact.html">
+                              <input type="hidden" name="_template" value="table">
+                              <input type="hidden" name="_subject" value="New submission!">
                               <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                                  <div class="contact__btn-3 contact__btn-4">
                                     <button type="submit" class="r-btn r-btn-yellow w-100">send message <i class="far fa-arrow-right"></i></button>
