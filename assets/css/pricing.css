@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 
-:root{
+/* :root{
   --pinkish-red: #C35A74;
   --medium-blue: #1E3868;
   --greenish-blue: #1A5986;
@@ -11,7 +11,7 @@
   --white: #FFF;
   --dark-gray: #7D7C7C;
   --black: #000;
-}
+} */
 
 body{margin-top:20px;}
 .sectionPricing{
@@ -20,7 +20,7 @@ body{margin-top:20px;}
     align-items: center;
     min-height: 100vh;
 
-    background: var(--white-smoke);
+    background: #F5F5F4;
 }
 
 .content{
@@ -39,7 +39,7 @@ body{margin-top:20px;}
     margin-left: 10px;
     margin-right: 10px;
     
-    background: var(--white);
+    background: #FFF;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 20%);
 }
 
@@ -52,19 +52,19 @@ body{margin-top:20px;}
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    color: var(--white-smoke);
+    color: #F5F5F4;
 }
 
 .basic .title{
-    background: var(--pinkish-red);
+    background: #C35A74;
 }
 
 .standard .title{
-    background: var(--medium-blue);
+    background: #1E3868;
 }
 
 .business .title{
-    background: var(--greenish-blue);
+    background: #1A5986;
 }
 
 .view{
@@ -72,7 +72,7 @@ body{margin-top:20px;}
     width: 100%;
     padding: 30px 0 20px;
 
-    background: var(--white-smoke);
+    background: #F5F5F4;
 }
 
 .icon{
@@ -143,18 +143,18 @@ button{
     font-weight: bold;
     letter-spacing: 0.5px;
     color: #7D7C7C;
-    border: 2px solid var(--dark-gray);
+    border: 2px solid #7D7C7C;
     border-radius: 50px;
 
     background: transparent;
 }
 
 button:hover{
-    color: var(--white-smoke);
+    color: #F5F5F4;
     transition: 0.5s;
     border: none;
 
-    background: var(--bright-orange);
+    background: #CC151C;
 }
 
 /* Responsiveness:Start */
